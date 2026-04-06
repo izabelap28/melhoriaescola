@@ -10,7 +10,7 @@
 <body>
 
 <header>
-<h1>Simulador de Detector</h1>
+<h1>Simulador Inteligente</h1>
 </header>
 
 <nav>
@@ -22,11 +22,25 @@
 
 <section class="simulador">
 
-<h2>Status do Sistema</h2>
+<h2>Simulação de Curto Circuito</h2>
 
-<h3 id="status">Seguro</h3>
+<div class="sim-box">
 
-<button onclick="simular()">Simular Perigo</button>
+<label>Temperatura do circuito</label>
+<input type="range" min="0" max="120" value="30" id="temp">
+
+<span id="tempValor">30°C</span>
+
+<label>Carga elétrica</label>
+<input type="range" min="0" max="100" value="20" id="carga">
+
+<span id="cargaValor">20%</span>
+
+<h3>Status: <span id="status">Seguro</span></h3>
+
+<button onclick="verificar()">Verificar Sistema</button>
+
+</div>
 
 </section>
 
