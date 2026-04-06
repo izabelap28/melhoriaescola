@@ -1,26 +1,9 @@
 
-let carrinho = [];
-
-function adicionarCarrinho(produto){
-carrinho.push(produto);
-
-let lista = document.getElementById("listaCarrinho");
-let item = document.createElement("li");
-
-item.innerText = produto;
-
-lista.appendChild(item);
-
+function comprar(){
 alert("Produto adicionado ao carrinho");
 }
 
-function simularDetector(){
-
-alert("Sistema ativo!");
-
-}
-
-function simularPerigo(){
+function simular(){
 
 let status = document.getElementById("status");
 
