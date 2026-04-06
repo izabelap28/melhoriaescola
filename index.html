@@ -11,85 +11,57 @@
 
 <header>
 <h1>SafeCircuit</h1>
-<p>Detectores Inteligentes para Segurança Doméstica</p>
+<p>Segurança inteligente para sua casa</p>
 </header>
 
 <nav>
-<a href="#inicio">Início</a>
-<a href="#produtos">Produtos</a>
-<a href="#simulador">Simulador</a>
-<a href="#contato">Contato</a>
+<a href="index.html">Início</a>
+<a href="produtos.html">Produtos</a>
+<a href="simulador.html">Simulador</a>
+<a href="contato.html">Contato</a>
 </nav>
 
-<section id="inicio" class="hero">
-<h2>Proteja sua casa contra incêndios</h2>
-<p>Detectores que identificam curto circuito antes de pegar fogo</p>
-<button onclick="simularDetector()">Simular Detector</button>
-</section>
+<section class="hero">
 
-<section id="produtos">
-<h2>Nossos Produtos</h2>
+<div class="hero-text">
 
-<div class="produtos">
+<h2>Detectores Inteligentes Contra Incêndios</h2>
 
-<div class="card">
-<h3>Detector Básico</h3>
-<p>Detecta aquecimento</p>
-<span>R$ 149,90</span>
-<button onclick="adicionarCarrinho('Detector Básico')">Comprar</button>
-</div>
+<p>
+Proteja seus eletrodomésticos com tecnologia que detecta curto circuito 
+antes de pegar fogo.
+</p>
 
-<div class="card">
-<h3>Detector Inteligente</h3>
-<p>Alarme + celular</p>
-<span>R$ 229,90</span>
-<button onclick="adicionarCarrinho('Detector Inteligente')">Comprar</button>
-</div>
-
-<div class="card">
-<h3>Detector Premium</h3>
-<p>Completo com sensores</p>
-<span>R$ 329,90</span>
-<button onclick="adicionarCarrinho('Detector Premium')">Comprar</button>
-</div>
+<a href="produtos.html">
+<button>Ver Produtos</button>
+</a>
 
 </div>
 
 </section>
 
-<section id="simulador">
-<h2>Simulador de Detector</h2>
+<section class="beneficios">
 
-<div class="simulador-box">
-<p>Status do circuito:</p>
-<h3 id="status">Seguro</h3>
-<button onclick="simularPerigo()">Simular Curto Circuito</button>
+<div class="beneficio">
+<h3>⚡ Detecção Inteligente</h3>
+<p>Identifica falhas elétricas automaticamente</p>
 </div>
 
-</section>
+<div class="beneficio">
+<h3>🔔 Alarme Automático</h3>
+<p>Dispara alerta imediato</p>
+</div>
 
-<section id="carrinho">
-<h2>Carrinho</h2>
-<ul id="listaCarrinho"></ul>
-</section>
-
-<section id="contato">
-<h2>Contato</h2>
-
-<form>
-<input type="text" placeholder="Nome">
-<input type="email" placeholder="Email">
-<textarea placeholder="Mensagem"></textarea>
-<button type="submit">Enviar</button>
-</form>
+<div class="beneficio">
+<h3>📱 Notificação</h3>
+<p>Receba alertas no celular</p>
+</div>
 
 </section>
 
 <footer>
 <p>SafeCircuit © 2026</p>
 </footer>
-
-<script src="script.js"></script>
 
 </body>
 </html>
